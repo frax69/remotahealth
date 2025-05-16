@@ -882,6 +882,13 @@ input[type="range"]::-webkit-slider-thumb {
     margin-bottom: 20px;
 }
 
+/* Stack calculator boxes vertically on mobile */
+@media (max-width: 768px) {
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .result-card {
     background-color: var(--light-bg);
     border-radius: 8px;
