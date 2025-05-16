@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Path Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .test-section { margin-bottom: 30px; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        h2 { color: #4fb3ff; }
+        img { max-width: 200px; height: auto; display: block; margin: 10px 0; }
+        .path { font-family: monospace; background: #f5f5f5; padding: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Image Path Testing for GitHub Pages</h1>
+    
+    <div class="test-section">
+        <h2>Favicon Test</h2>
+        
+        <p class="path">1. Absolute path with encoded spaces (recommended):</p>
+        <img src="/remotahealth/images/small%20icons%20and%20logos/favicon.jpeg" alt="Favicon Test 1">
+        
+        <p class="path">2. Relative path with encoded spaces:</p>
+        <img src="images/small%20icons%20and%20logos/favicon.jpeg" alt="Favicon Test 2">
+        
+        <p class="path">3. Relative path with dot notation and encoded spaces:</p>
+        <img src="./images/small%20icons%20and%20logos/favicon.jpeg" alt="Favicon Test 3">
+        
+        <p class="path">4. Base URL with encoded spaces:</p>
+        <img src="https://username.github.io/remotahealth/images/small%20icons%20and%20logos/favicon.jpeg" alt="Favicon Test 4">
+        <p>Note: Replace 'username' with your actual GitHub username</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>Team Photos Test</h2>
+        
+        <p class="path">1. Absolute path with .jpeg extension:</p>
+        <img src="/remotahealth/images/team/Francesco-Cori.jpeg" alt="Team Test 1">
+        
+        <p class="path">2. Relative path with .jpeg extension:</p>
+        <img src="images/team/Francesco-Cori.jpeg" alt="Team Test 2">
+        
+        <p class="path">3. Relative path with dot notation:</p>
+        <img src="./images/team/Francesco-Cori.jpeg" alt="Team Test 3">
+    </div>
+    
+    <div class="test-section">
+        <h2>Hero Image Test</h2>
+        
+        <p class="path">1. Absolute path:</p>
+        <img src="/remotahealth/images/backgrounds/your-hero-image.jpeg" alt="Hero Test 1">
+        
+        <p class="path">2. Relative path:</p>
+        <img src="images/backgrounds/your-hero-image.jpeg" alt="Hero Test 2">
+        
+        <p class="path">3. Relative path with dot notation:</p>
+        <img src="./images/backgrounds/your-hero-image.jpeg" alt="Hero Test 3">
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/remotahealth/">
+    <title>Favicon Test Page</title>
+    
+    <!-- Approach 1: Standard favicon links -->
+    <link rel="icon" href="images/small%20icons%20and%20logos/favicon.jpeg" type="image/jpeg">
+    <link rel="shortcut icon" href="images/small%20icons%20and%20logos/favicon.jpeg" type="image/jpeg">
+    
+    <!-- Approach 2: Try with logo icon as favicon -->
+    <link rel="icon" href="images/logos/logo-icon.ai.jpeg" type="image/jpeg">
+    
+    <!-- Approach 3: Try with absolute URL -->
+    <link rel="icon" href="/remotahealth/images/small%20icons%20and%20logos/favicon.jpeg" type="image/jpeg">
+    
+    <!-- Approach 4: Try specifying sizes -->
+    <link rel="icon" href="images/small%20icons%20and%20logos/favicon.jpeg" type="image/jpeg" sizes="16x16">
+    <link rel="icon" href="images/small%20icons%20and%20logos/favicon.jpeg" type="image/jpeg" sizes="32x32">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .favicon-test {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: #4fb3ff;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favicon Test Page</h1>
+    
+    <div class="favicon-test">
+        <h2>What should work?</h2>
+        <p>This page tests different approaches to favicon implementation. The favicon should appear in your browser tab.</p>
+        <p>If you see a favicon at the top of this page, note which browser you're using so we can implement the same approach across all pages.</p>
+    </div>
+    
+    <div class="favicon-test">
+        <h2>Alternative Solutions</h2>
+        <p>If none of these approaches work, try:</p>
+        <ol>
+            <li>Renaming the favicon file to avoid spaces in the folder path</li>
+            <li>Using a direct URL to an image hosting service</li>
+            <li>Creating a favicon in multiple formats (ico, png) in addition to jpeg</li>
+            <li>Placing the favicon directly in the root directory instead of a subfolder</li>
+        </ol>
+    </div>
+    
+    <a href="index.html">Return to Home Page</a>
+</body>
+</html>
