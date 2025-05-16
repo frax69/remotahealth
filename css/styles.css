@@ -887,6 +887,16 @@ input[type="range"]::-webkit-slider-thumb {
     .results-grid {
         grid-template-columns: 1fr;
     }
+    
+    /* Fix for 'Powered by' badge on mobile */
+    .m2-badge {
+        max-width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        font-size: 0.9rem;
+        white-space: normal;
+        word-break: break-word;
+    }
 }
 
 .result-card {
